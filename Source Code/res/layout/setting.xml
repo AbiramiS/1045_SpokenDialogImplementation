@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <EditText android:id="@+id/source"
+    android:hint="Enter Source"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content" 
+     android:layout_alignParentTop="true" 
+     android:layout_alignParentLeft="true"
+     android:layout_marginTop="18dp" 
+     android:layout_alignParentRight="true">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText android:id="@+id/destination"
+    android:hint="Enter Destination" 
+    android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/source" android:layout_alignParentLeft="true" android:layout_marginTop="28dp" android:layout_alignParentRight="true"></EditText>
+    <EditText android:inputType="phone" 
+    android:hint="Total Number of Seat"
+    android:id="@+id/tseat" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/destination" android:layout_alignParentLeft="true" android:layout_marginTop="33dp" android:layout_alignParentRight="true"></EditText>
+    <Button android:layout_height="wrap_content" android:id="@+id/Submit" android:text="Submit" android:layout_width="wrap_content" android:layout_below="@+id/tseat" android:layout_alignParentRight="true" android:layout_marginRight="34dp" android:layout_marginTop="45dp"></Button>
+    
+</RelativeLayout>

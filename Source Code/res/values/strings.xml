@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TicketBookingActivity!</string>
+    <string name="app_name">TicketBooking</string>
+    <string name="welcome_note">Welcome To TicketBooking</string>
+    <string name="go">Click Here to GO</string>
+    <string name="speak">Speak Now</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#19303A"
+  android:id="@+id/firstlay">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/welcome_note" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="76dp"
+ android:textSize="8pt"
+    
+    ></TextView>
+    <ImageView android:id="@+id/settings" android:layout_height="50dp" android:src="@drawable/ic_action_settings" android:layout_width="50dp" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1" android:layout_marginLeft="20dp" android:layout_marginTop="17dp"></ImageView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:text="Setting" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_alignTop="@+id/settings" android:layout_centerHorizontal="true" android:layout_marginTop="14dp"></TextView>
+    <ImageView android:id="@+id/clear" android:layout_height="50dp" android:src="@drawable/ic_action_discard" android:layout_width="50dp" android:layout_below="@+id/settings" android:layout_alignLeft="@+id/settings" android:layout_marginTop="14dp"></ImageView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView3" android:text="Clear" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_alignBottom="@+id/clear" android:layout_alignLeft="@+id/textView2"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/lay" android:text="@string/go" android:layout_width="wrap_content" android:layout_below="@+id/clear" android:layout_alignRight="@+id/textView2" android:layout_marginTop="34dp"></TextView>
+    
+</RelativeLayout>
